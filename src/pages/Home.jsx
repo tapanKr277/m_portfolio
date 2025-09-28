@@ -12,9 +12,9 @@ const Home = ({setpg}) => {
         <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
         <Intro />
         <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
-        <Education />
-        <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
         <Experience_section />
+        <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
+        <Education />
         <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
         <AboutMe1 setpg={setpg}/>
         <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>

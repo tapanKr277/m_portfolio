@@ -31,19 +31,18 @@ const Navbar2 = ({ setpg }) => {
       {/* Desktop Nav */}
       {/* Desktop Nav */}
       <div className="text-base lg:flex hidden items-center gap-6">
+      <a
+          className="cursor-pointer hover:text-black hover:underline transition duration-200"
+          onClick={() => smoothScroll("#work")}
+        >
+          Work
+        </a>
         <a
           className="cursor-pointer hover:text-black hover:underline transition duration-200"
           onClick={() => smoothScroll("#education")}
         >
           Education
         </a>
-        <a
-          className="cursor-pointer hover:text-black hover:underline transition duration-200"
-          onClick={() => smoothScroll("#work")}
-        >
-          Work
-        </a>
-       
         <a
           className="cursor-pointer hover:text-black hover:underline transition duration-200"
           onClick={() => setpg(1)}
