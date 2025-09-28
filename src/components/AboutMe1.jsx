@@ -51,19 +51,47 @@ const AboutMe1 = () => {
       <div className="lg:w-2/3 font-manrope">
         <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-md transition-transform duration-300 ease-in-out hover:shadow-2xl hover:scale-[1.02] hover:-translate-y-1">
           <h1 className="text-2xl lg:text-3xl font-semibold text-black mb-4">
-            I’m Madhu Kumari, a Procurement & Business Development Professional based in Jamshedpur.
+            I’m Madhu Kumari, a Procurement & Business Development Professional
+            based in Jamshedpur.
           </h1>
-          <p className="mb-10 text-gray-800 text-base lg:text-lg leading-relaxed">
-            Experienced in **Government Tendering, Procurement, and Business Development** with hands-on expertise in end-to-end tender processes,
-            vendor management, OEM coordination, contract compliance, and post-order execution. Skilled in managing company registrations, portal updates, and
-            statutory compliance on portals like GEM, CPPP, and IREPS. Adept at preparing technical and price bids, managing EMD/ePBG submissions, and driving cost
-            optimization initiatives. Recognized for strong analytical skills, cross-functional collaboration, and delivering results under pressure.
-          </p>
+          <div>
+            <ul className="mb-10 text-gray-800 text-base lg:text-lg leading-relaxed list-disc list-inside space-y-2">
+              <li className="mt-4 list-disc list-inside space-y-1 text-gray-800 text-sm">
+                Experienced in{" "}
+                <strong>
+                  Government Tendering, Procurement, and Business Development
+                </strong>{" "}
+                with end-to-end tendering expertise.
+              </li>
+              <li className="mt-4 list-disc list-inside space-y-1 text-gray-800 text-sm">
+                Skilled in vendor management, OEM coordination, contract
+                compliance, and post-order execution.
+              </li>
+              <li className="mt-4 list-disc list-inside space-y-1 text-gray-800 text-sm">
+                Proficient in managing company registrations, portal updates,
+                and statutory compliance across GEM, CPPP, and IREPS.
+              </li>
+              <li className="mt-4 list-disc list-inside space-y-1 text-gray-800 text-sm">
+                Adept at technical and price bid preparation, along with
+                handling EMD/ePBG submissions.
+              </li>
+              <li className="mt-4 list-disc list-inside space-y-1 text-gray-800 text-sm">
+                Proven track record in driving cost optimization and enhancing
+                bid success rates.
+              </li>
+              <li className="mt-4 list-disc list-inside space-y-1 text-gray-800 text-sm">
+                Recognized for analytical thinking, cross-functional
+                collaboration, and delivering results under pressure.
+              </li>
+            </ul>
+          </div>
 
           {/* Skills */}
           {Object.entries(categorizedSkills).map(([category, skills]) => (
             <div key={category} className="mb-6">
-              <h2 className="text-lg font-semibold text-black mb-3">{category}</h2>
+              <h2 className="text-lg font-semibold text-black mb-3">
+                {category}
+              </h2>
               <div className="flex flex-wrap gap-3">
                 {skills.map((skill, idx) => (
                   <div

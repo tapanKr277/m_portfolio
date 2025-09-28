@@ -8,8 +8,12 @@ export const experience = [
     start: "Jul 2025",
     end: "Present",
     location: "Jamshedpur, India",
-    discription:
-      "Lead end-to-end tendering processes in Electrical, Mechanical & Instrumentation sectors across government procurement portals (GEM, IREPS, CPPP). Prepare and submit competitive bids with 100% compliance to tender requirements, improving bid success rate. Manage company registrations, portal updates, and statutory compliance for participation in e-procurement. Coordinate with OEMs for quotations, dealership agreements & price negotiations, driving cost savings and expanding vendor network.",
+    discription: [
+      "Lead end-to-end tendering processes in Electrical, Mechanical & Instrumentation sectors across government procurement portals (GEM, IREPS, CPPP).",
+      "Prepare and submit competitive bids with 100% compliance to tender requirements, improving bid success rate.",
+      "Manage company registrations, portal updates, and statutory compliance for participation in e-procurement.",
+      "Coordinate with OEMs for quotations, dealership agreements & price negotiations, driving cost savings and expanding vendor network.",
+    ],
   },
   {
     title: "Senior Executive – Procurement & Business Development",
@@ -17,10 +21,21 @@ export const experience = [
     start: "Nov 2022",
     end: "Jun 2025",
     location: "Jamshedpur, India",
-    discription:
-      "Managed end-to-end tender process across Electrical, Mechanical, Instrumentation & Automation projects; handled 100+ tenders via GEM, CPPP, IREPS & other govt. portals. Prepared and submitted technical & commercial bids with complete documentation, ensuring 100% compliance and improving bid success rate by 15% YoY. Negotiated with 10+ OEMs & clients, reducing procurement costs by up to 12% and expanding vendor network through new OEM onboarding. Registered & maintained vendor accounts on e-procurement portals; managed EMD/ePBG submissions worth ₹2Cr+, inspections (RITES, TPI), and compliance. Coordinated with sales, accounts, warehouse & technical teams to ensure timely tender submissions and deliveries. Maintained audit-ready documentation and vendor profiles. Followed up with government departments for timely payment release post material delivery.",
+    discription: [
+      "Managed end-to-end tender process across Electrical, Mechanical, Instrumentation & Automation projects.",
+      "Handled 100+ tenders via GEM, CPPP, IREPS & other government portals.",
+      "Prepared and submitted technical & commercial bids with complete documentation, improving bid success rate by 15% YoY.",
+      "Negotiated with 10+ OEMs & clients, reducing procurement costs by up to 12%.",
+      "Expanded vendor network through new OEM onboarding.",
+      "Registered & maintained vendor accounts on e-procurement portals.",
+      "Managed EMD/ePBG submissions worth ₹2Cr+, inspections (RITES, TPI), and compliance.",
+      "Coordinated with sales, accounts, warehouse & technical teams to ensure timely tender submissions and deliveries.",
+      "Maintained audit-ready documentation and vendor profiles.",
+      "Followed up with government departments for timely payment release post material delivery.",
+    ],
   },
 ];
+
 
 const Experience_section = () => {
   return (
