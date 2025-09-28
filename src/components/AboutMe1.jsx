@@ -57,10 +57,8 @@ const AboutMe1 = () => {
           <div>
             <ul className="mb-10 text-gray-800 text-base lg:text-lg leading-relaxed list-disc list-inside space-y-2">
               <li className="mt-4 list-disc list-inside space-y-1 text-gray-800 text-sm">
-                Experienced in{" "}
-                <strong>
+                Experienced in
                   Government Tendering, Procurement, and Business Development
-                </strong>{" "}
                 with end-to-end tendering expertise.
               </li>
               <li className="mt-4 list-disc list-inside space-y-1 text-gray-800 text-sm">

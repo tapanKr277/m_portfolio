@@ -32,7 +32,16 @@ const Intro = () => {
           Business Development Manager
         </p>
         <p className="font-medium text-base lg:text-lg text-gray-700 font-manrope w-full mt-4">
-          Results-driven professional with 3+ years’ experience in Government Tendering, Procurement, and Business Development across Electrical, Mechanical, and Automation sectors. Skilled in tender management, bid preparation, vendor/OEM coordination, and contract compliance on platforms like GEM, CPPP, and IREPS. Proven ability to optimize costs, enhance bid success rates, and drive procurement efficiency through strong negotiation and collaboration skills.
+          Procurement and tendering professional with 3+ years of experience
+          managing end-to-end Government Tendering and Vendor Development
+          processes across Electrical, Mechanical, Instrumentation & Automation
+          sectors. Executed over 100 government tenders through GEM, CPPP, and
+          IREPS platforms with full compliance. Proficient in vendor onboarding,
+          OEM coordination, and contract negotiation—achieving up to 12% cost
+          reductions and a 15% year-over-year improvement in bid success rates.
+          Skilled in cross-functional coordination, eprocurement tools, and
+          driving procurement operations that improve cost efficiency and
+          streamline compliance.
         </p>
 
         {/* Buttons Section */}
@@ -40,7 +49,7 @@ const Intro = () => {
           {/* Resume Button */}
           <div className="relative group">
             <a
-              href="/Madhu_Kumari.pdf" 
+              href="/Madhu_Kumari.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"

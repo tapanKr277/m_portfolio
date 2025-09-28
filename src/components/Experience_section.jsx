@@ -13,6 +13,9 @@ export const experience = [
       "Prepare and submit competitive bids with 100% compliance to tender requirements, improving bid success rate.",
       "Manage company registrations, portal updates, and statutory compliance for participation in e-procurement.",
       "Coordinate with OEMs for quotations, dealership agreements & price negotiations, driving cost savings and expanding vendor network.",
+      "Implemented a centralized tender tracking system, improving internal collaboration and reducing submission time by 30%.",
+      "Conducted market research and competitive analysis for 20+ tenders, leading to more strategic and targeted bid submissions with improved win probability.",
+      "Prepared 30+ high-quality technical and commercial proposals, ensuring 100% alignment with tender specifications and client expectations."
     ],
   },
   {
